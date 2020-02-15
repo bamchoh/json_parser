@@ -1,21 +1,20 @@
 package token
 
 const (
-	ILLEGAL   = "ILLEGAL"
-	EOF       = "EOF"
-	IDENT     = "IDENT"
-	NUMBER    = "NUMBER"
-	STRING    = "STRING"
-	TRUE      = "TRUE"
-	FALSE     = "FALSE"
-	NULL      = "NULL"
-	COMMA     = ","
-	SEMICOLON = ";"
-	COLON     = ":"
-	LBRACKET  = "["
-	RBRACKET  = "]"
-	LBRACE    = "{"
-	RBRACE    = "}"
+	ILLEGAL  = "ILLEGAL"
+	EOF      = "EOF"
+	IDENT    = "IDENT"
+	NUMBER   = "NUMBER"
+	STRING   = "STRING"
+	TRUE     = "TRUE"
+	FALSE    = "FALSE"
+	NULL     = "NULL"
+	COMMA    = ","
+	COLON    = ":"
+	LBRACKET = "["
+	RBRACKET = "]"
+	LBRACE   = "{"
+	RBRACE   = "}"
 )
 
 var keywords = map[string]TokenType{
